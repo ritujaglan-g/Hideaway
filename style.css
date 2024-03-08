@@ -1,0 +1,243 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#main-header {
+  background-image: url(nature.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: 52px;
+  height: 87vh;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#hideaway-text {
+  font-size: 35px;
+  /* margin: 13vh 14.5vw; */
+  color: white;
+}
+#header-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: -10px;
+  margin: 8vh 10vw;
+  gap: 50px;
+  font-size: 19px;
+  margin-left: 40px;
+}
+#fonts {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 90px;
+  align-items: center;
+}
+#home,
+#pages,
+#contact,
+#element {
+  color: rgb(230, 227, 227);
+  font-weight: 100;
+}
+#fonts > div > i {
+  color: rgb(227, 224, 224);
+}
+#book {
+  color: white;
+  border: 1px solid white;
+  font-size: 19px;
+  height: 38px;
+  width: 120px;
+  padding-left: 17px;
+  padding-top: 6px;
+}
+#book:hover {
+  color: black;
+  background-color: white;
+}
+#west {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#west-text {
+  color: white;
+  margin-top: 200px;
+  font-size: 20px;
+}
+#inn-text {
+  color: white;
+  margin-top: 10px;
+  font-size: 70px;
+  border: 1px solid rgb(60, 10, 10);
+  background-color: rgb(51, 8, 8);
+}
+#image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+  gap: 35px;
+}
+#gallery {
+  height: 41vh;
+  width: 22vw;
+  background-image: url(tree.jpeg);
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+#amn {
+  height: 41vh;
+  width: 22vw;
+  background-image: url(seceond.jpeg);
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+#pack {
+  height: 41vh;
+  width: 22vw;
+  background-image: url(thired.jpeg);
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+#inviting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#inviting-text {
+  margin-top: 90px;
+  font-size: 40px;
+}
+#history {
+  font-size: 19px;
+  margin-top: 60px;
+  border: 1px solid rgb(44, 5, 5);
+  height: 60px;
+  width: 150px;
+  padding-top: 16px;
+  padding-left: 28px;
+}
+#history:hover {
+  color: white;
+  background-color: rgb(44, 5, 5);
+}
+#image-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(footer.jpeg);
+  background-repeat: no-repeat;
+  height: 460px;
+  margin: 52px;
+  background-size: 100% auto;
+  margin-top: 160px;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 43px;
+  gap: 20px;
+}
+#join {
+  color: white;
+  font-size: 30px;
+}
+#subscribe {
+  color: rgb(172, 171, 171);
+  font-size: 19px;
+  margin-top: 15px;
+}
+#email {
+  width: 300px;
+  font-size: 14px;
+  padding-left: 12px;
+}
+#submit {
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  height: 50px;
+  width: 160px;
+  padding-top: 16px;
+  padding-left: 28px;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+}
+#theme {
+  color: rgb(192, 187, 187);
+  display: flex;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: -420px;
+}
+#footer-tex {
+  display: flex;
+  flex-direction: row;
+  translate: 400px 110px;
+  gap: 16px;
+}
+.home {
+  color: rgb(192, 187, 187);
+}
+#image-three {
+  background-image: url(cocoa..jpg);
+  background-repeat: no-repeat;
+  margin: 52px;
+  height: 700px;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#eagerly {
+  color: white;
+  font-size: 70px;
+}
+#your {
+  color: white;
+  border: 2px solid white;
+  height: 80px;
+  width: 250px;
+  padding-top: 30px;
+  padding-left: 55px;
+  margin-top: 40px;
+}
+#your:hover {
+  color: black;
+  background-color: white;
+}
+#instagram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+#instagram-text {
+  font-size: 20px;
+}
